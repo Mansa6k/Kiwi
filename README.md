@@ -1,5 +1,6 @@
 # Crypto Clustering
 Overview
+
 This project uses unsupervised machine learning to cluster a dataset of cryptocurrency price change data. The goal is to identify groups of cryptocurrencies that have similar price movements over time. The project involves using K-means clustering and principal component analysis (PCA) to cluster the data and visualize the results using the hvPlot and Matplotlib libraries.
 # Technologies
 The following technologies are used in this application:
@@ -17,10 +18,15 @@ To run this project, you will need to install the following libraries:
 
 Copy code
 pip install numpy 
+
 pip install pandas 
+
 pip install hvplot 
+
 pip install sqlalchemy 
+
 pip install -U scikit-learn 
+
 pip install matplotlib
 # Dataset
 The dataset used in this project contains price change data of cryptocurrencies in different periods. The data is provided in a CSV file and is prepared in the project's Jupyter Notebook.
